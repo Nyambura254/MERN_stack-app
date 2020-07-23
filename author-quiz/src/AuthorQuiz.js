@@ -29,9 +29,7 @@ function Turn({ author, books }) {
     </div>
   )
 }
-function Continue() {
-  return (<div></div>)
-}
+
 function Footer() {
   return (
     <div id="footer" className="row">
@@ -48,7 +46,7 @@ function AuthorQuiz({ turnData }) {
     <div className="container-fluid">
       <Hero />
       <Turn {...turnData} />
-      <Continue />
+
       <Footer />
     </div>
   );
