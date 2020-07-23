@@ -37,7 +37,7 @@ function Footer() {
     <div id="footer" className="row">
       <div className="col-12">
         <p className="text-muted credit">Find images from
-        <a href="https://commons.wikimedia.org/wiki/Main_Page"> Wikipedia Commos </a>and are in the public domain</p>
+        <a href="https://commons.wikimedia.org/wiki/Main_Page"> Wikimedia Commos </a>and are in the public domain</p>
       </div>
     </div>
   )
