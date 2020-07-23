@@ -12,7 +12,11 @@ function Hero() {
 }
 function Turn() {
   return (
-    <div></div>
+    <div className="row turn" style={{ backgroundColor: "white" }}>
+      <div className="col-4 offset-1">
+        <img src={author.imgUrl} className="authorimage" alt="Author"></img>
+      </div>
+    </div>
   )
 }
 function Continue() {
@@ -23,7 +27,7 @@ function Footer() {
     <div id="footer" className="row">
       <div className="col-12">
         <p className="text-muted credit">Find images from
-        <a href="https://commons.wikimedia.org/wiki/Main_Page" /></p>
+        <a href="https://commons.wikimedia.org/wiki/Main_Page"> Wikipedia Commos </a>and are in the public domain</p>
       </div>
     </div>
   )
