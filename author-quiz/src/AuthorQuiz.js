@@ -37,17 +37,16 @@ function Footer() {
 }
 
 function AuthorQuiz({ turnData }) {
-  render() {
-    return (
-      <div className="container-fluid">
-        <Hero />
-        <Turn {...turnData} />
-        <Continue />
-        <Footer />
-      </div>
-    );
-  }
+  return (
+    <div className="container-fluid">
+      <Hero />
+      <Turn {...turnData} />
+      <Continue />
+      <Footer />
+    </div>
+  );
 }
+
 
 
 export default AuthorQuiz;
