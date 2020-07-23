@@ -1,2 +1,1 @@
-# MERN_stack-app
-MERN MOVIES APP
+#Author quiz game in create react-app
