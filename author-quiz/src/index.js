@@ -85,11 +85,13 @@ const authors = [
   }
 
 ];
+function getTurnData(authors) {
+  const allBooks = authors.reduce(function (p, c, i) {
+
+  }, []);
+}
 const state = {
-  turnData: {
-    author: authors[0],
-    books: authors[0].books
-  }
+  turnData: getTurnData(authors)
 };
 ReactDOM.render(
   <React.StrictMode>
