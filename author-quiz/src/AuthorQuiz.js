@@ -10,7 +10,7 @@ function Hero() {
     <p>Select the book written by the author shown</p>
   </div>)
 }
-function Turn() {
+function Turn({ author, books }) {
   return (
     <div className="row turn" style={{ backgroundColor: "white" }}>
       <div className="col-4 offset-1">
