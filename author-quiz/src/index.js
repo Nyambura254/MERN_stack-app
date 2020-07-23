@@ -8,13 +8,16 @@ import * as serviceWorker from './serviceWorker';
 const authors = [
   {
     name: "Mark Twain",
-    imageUrl: "images/authors/marktwain.jpg",
+    imageUrl: "/images/authors/marktwain.jpeg",
     imageSource: "Wikipedia Commos",
     books: ["The Adventures of Huckleberry Finn"]
 
 
   }
-]
+];
+const state = {
+  author:
+}
 
 ReactDOM.render(
   <React.StrictMode>
