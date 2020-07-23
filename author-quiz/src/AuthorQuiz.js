@@ -12,7 +12,7 @@ function Hero() {
 }
 function Book({ title }) {
   return (<div className="answer">
-
+    <h4>{title}</h4>
   </div>
   );
 }
@@ -23,7 +23,8 @@ function Turn({ author, books }) {
         <img src={author.imgUrl} className="authorimage" alt="Author"></img>
       </div>
       <div className="col-6">
-        {books.map((title) => <Book title={title} key={title}}
+        {books.map((title) => < Book title={title} key={title}
+        ></Book>)}
       </div>
     </div>
   )
