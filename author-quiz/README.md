@@ -71,3 +71,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 #install bootstrap
+
+go to boostrap website and click get started and copy css link only
+``` sh
+https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css
+```
