@@ -16,6 +16,9 @@ function Turn() {
       <div className="col-4 offset-1">
         <img src={author.imgUrl} className="authorimage" alt="Author"></img>
       </div>
+      <div className="col-6">
+        {books.map((title) => <p>{title}</p>)}
+      </div>
     </div>
   )
 }
