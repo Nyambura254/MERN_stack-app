@@ -36,12 +36,12 @@ function Footer() {
   )
 }
 
-class AuthorQuiz extends Component {
+function AuthorQuiz({ turnData }) {
   render() {
     return (
       <div className="container-fluid">
         <Hero />
-        <Turn />
+        <Turn {...turnData} />
         <Continue />
         <Footer />
       </div>

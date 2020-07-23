@@ -23,7 +23,7 @@ const state = {
 };
 ReactDOM.render(
   <React.StrictMode>
-    <AuthorQuiz />
+    <AuthorQuiz {...state} />
   </React.StrictMode>,
   document.getElementById('root')
 );
