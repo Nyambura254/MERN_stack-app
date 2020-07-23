@@ -30,7 +30,7 @@ const authors = [
   },
   {
     name: "Stephen King",
-    imageUrl: "images/authors/stephenking.jpeg",
+    imageUrl: "images/authors/stephnking.jpeg",
     imageSource: "Wikimedia Commos",
     books: ["It",
       "The rape of lucrece",
