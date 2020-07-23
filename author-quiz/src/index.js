@@ -19,7 +19,7 @@ const authors = [
   },
   {
     name: "William Shakespear",
-    imageUrl: "images/authors/marktwain.jpeg",
+    imageUrl: "images/authors/williamshakespear.jpeg",
     imageSource: "Wikimedia Commos",
     books: ["Sonnet 116",
       "The expression",
@@ -30,7 +30,7 @@ const authors = [
   },
   {
     name: "Stephen King",
-    imageUrl: "images/authors/marktwain.jpeg",
+    imageUrl: "images/authors/stephenking.jpeg",
     imageSource: "Wikimedia Commos",
     books: ["It",
       "The rape of lucrece",
@@ -41,7 +41,7 @@ const authors = [
   },
   {
     name: "Joseph Conrad",
-    imageUrl: "images/authors/marktwain.jpeg",
+    imageUrl: "images/authors/josephconrad.jpeg",
     imageSource: "Wikimedia Commos",
     books: ["Chance",
       "The outsider",
@@ -52,7 +52,7 @@ const authors = [
   },
   {
     name: "JK Rowling",
-    imageUrl: "images/authors/marktwain.jpeg",
+    imageUrl: "images/authors/jkrowling.jpeg",
     imageSource: "Wikimedia Commos",
     books: ["Harry Potter",
       "The innocents abroad",
@@ -63,7 +63,7 @@ const authors = [
   },
   {
     name: "Charles Dickens",
-    imageUrl: "images/authors/marktwain.jpeg",
+    imageUrl: "images/authors/charlesdickens.jpeg",
     imageSource: "Wikimedia Commos",
     books: ["The Adventures of Huckleberry Finn",
       "The Christimas Carol",
