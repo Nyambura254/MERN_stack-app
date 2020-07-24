@@ -3,3 +3,4 @@
 ### test cases
 ### author images randomly loading
 ### books picks at random
+### self refreshing
