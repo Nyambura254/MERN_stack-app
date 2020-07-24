@@ -1,3 +1,3 @@
-#Author quiz game in create react-app
+# Author quiz game in create react-app
 
 ### test cases
